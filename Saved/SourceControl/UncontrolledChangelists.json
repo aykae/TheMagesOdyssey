@@ -1,0 +1,13 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/raiab/STUFF/PENN/SPRING2024/CIS5680/VR/TMO/Content/VRTemplate/Maps/VRTemplateMap.umap",
+				"C:/Users/raiab/STUFF/PENN/SPRING2024/CIS5680/VR/Test2/Content/VRTemplate/Maps/VRTemplateMap.umap"
+			]
+		}
+	]
+}
