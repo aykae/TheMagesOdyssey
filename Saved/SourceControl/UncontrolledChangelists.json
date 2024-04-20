@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/CG ADMIN/Documents/Unreal Projects/TheMagesOdyssey/Content/VRTemplate/Maps/VRTemplateMap.umap",
+				"C:/Users/CG ADMIN/Documents/Unreal Projects/TheMagesOdyssey/Content/VRTemplate/Materials/CaveFloor.uasset",
+				"C:/Users/CG ADMIN/Documents/Unreal Projects/TheMagesOdyssey/Content/VRTemplate/Materials/Lava.uasset",
+				"C:/Users/CG ADMIN/Documents/Unreal Projects/TheMagesOdyssey/Content/VRTemplate/Materials/CaveWall.uasset",
 				"C:/Users/raiab/STUFF/PENN/SPRING2024/CIS5680/VR/TMO/Content/VRTemplate/Maps/VRTemplateMap.umap",
 				"C:/Users/raiab/STUFF/PENN/SPRING2024/CIS5680/VR/Test2/Content/VRTemplate/Maps/VRTemplateMap.umap"
 			]

@@ -14,7 +14,7 @@
 			]
 		},
 		{
-			"Name": "OpenXR",
+			"Name": "OpenXRHandTracking",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
 				"Win64",
@@ -32,11 +32,19 @@
 			]
 		},
 		{
-			"Name": "OpenXRHandTracking",
+			"Name": "OpenXR",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
 				"Win64",
 				"Linux",
+				"Android"
+			]
+		},
+		{
+			"Name": "OpenXRMsftHandInteraction",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
 				"Android"
 			]
 		}
