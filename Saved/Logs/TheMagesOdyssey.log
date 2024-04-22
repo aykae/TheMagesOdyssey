@@ -2136,3 +2136,30 @@ Script Stack (0 frames) :
 [2024.04.22-20.50.23:107][884]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
 [2024.04.22-20.50.23:108][884]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
 [2024.04.22-20.50.23:159][885]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.04.22-20.59.23:963][195]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VRTemplate/Blueprints/Menu.Menu
+[2024.04.22-20.59.23:963][195]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.22-20.59.23:963][195]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.22-20.59.24:110][195]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.04.22-20.59.31:826][658]LogViewport: Scene viewport resized to 1087x689, mode Windowed.
+[2024.04.22-20.59.31:894][661]LogShaderCompilers: Display: ================================================
+[2024.04.22-20.59.31:894][661]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.22-20.59.31:894][661]LogShaderCompilers: Display: Total job queries 46, among them cache hits 11 (23.91%)
+[2024.04.22-20.59.31:894][661]LogShaderCompilers: Display: Tracking 33 distinct input hashes that result in 27 distinct outputs (81.82%)
+[2024.04.22-20.59.31:894][661]LogShaderCompilers: Display: RAM used: 1.20 MiB of 3.20 GiB budget. Usage: 0.04%
+[2024.04.22-20.59.31:894][661]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.22-20.59.31:894][661]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.04.22-20.59.31:894][661]LogShaderCompilers: Display: Jobs assigned 2, completed 0 (0.00%)
+[2024.04.22-20.59.31:894][661]LogShaderCompilers: Display: Time job spent in pending queue: average 0.00 s, longest 0.00 s
+[2024.04.22-20.59.31:894][661]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.04.22-20.59.31:894][661]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.22-20.59.31:894][661]LogShaderCompilers: Display: ================================================
+[2024.04.22-20.59.37:476][ 48]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.22-20.59.43:017][443]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-20.59.43:117][443]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.04.22-20.59.43:164][443]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2024.04.22-20.59.43:164][443]LogSavePackage: Moving '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Saved/VRTemplateMap150E5E3B4B377E7F4469EB8398FB0348.tmp' to '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2024.04.22-20.59.43:171][443]LogFileHelpers: All files are already saved.
+[2024.04.22-20.59.43:172][443]LogFileHelpers: Saving map 'VRTemplateMap' took 0.101
+[2024.04.22-20.59.43:179][443]LogFileHelpers: InternalPromptForCheckoutAndSave took 161 ms (total: 636 ms)
+[2024.04.22-20.59.43:181][443]AssetCheck: New page: Asset Save: VRTemplateMap
+[2024.04.22-20.59.43:181][443]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
