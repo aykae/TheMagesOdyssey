@@ -19977,3 +19977,9 @@ The following settings have been applied:
 [2024.04.22-04.20.43:054][465]LogFileHelpers: InternalPromptForCheckoutAndSave took 105 ms (total: 1:01 min)
 [2024.04.22-04.20.43:056][465]AssetCheck: New page: Asset Save: Global
 [2024.04.22-04.20.43:056][465]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TheMagesOdyssey/Global.Global
+[2024.04.22-04.58.52:529][384]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2024.04.22-04.58.57:529][384]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2024.04.22-04.59.05:118][384]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=13180
+[2024.04.22-04.59.06:071][386]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{ab340377-0921-4722-9497-1f7e1a27ed93}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=722.90
+[2024.04.22-04.59.06:072][386]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.04.22-04.59.06:074][386]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
