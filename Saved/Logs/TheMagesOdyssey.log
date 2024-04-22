@@ -2163,3 +2163,26 @@ Script Stack (0 frames) :
 [2024.04.22-20.59.43:179][443]LogFileHelpers: InternalPromptForCheckoutAndSave took 161 ms (total: 636 ms)
 [2024.04.22-20.59.43:181][443]AssetCheck: New page: Asset Save: VRTemplateMap
 [2024.04.22-20.59.43:181][443]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2024.04.22-21.18.54:236][ 10]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TheMagesOdyssey/CaveLighting.CaveLighting
+[2024.04.22-21.18.54:236][ 10]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.22-21.18.54:236][ 10]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.22-21.18.57:246][223]LogViewport: Scene viewport resized to 1087x689, mode Windowed.
+[2024.04.22-21.20.41:985][580]LogSlate: Window 'Color Picker' being destroyed
+[2024.04.22-21.21.53:821][673]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.04.22-21.21.53:868][673]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto1
+[2024.04.22-21.21.53:869][673]LogSavePackage: Moving '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Saved/VRTemplateMap_Auto1F8D2EF9E4CC68EB4624F6B81E6F25C1D.tmp' to '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Saved/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto1.umap'
+[2024.04.22-21.21.53:870][673]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Saved/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto1.umap is in the /Temp path, will not scan.
+[2024.04.22-21.21.53:870][673]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.072
+[2024.04.22-21.21.53:870][673]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.072
+[2024.04.22-21.21.53:871][673]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TheMagesOdyssey/CaveLighting] ([2] browsable assets)...
+[2024.04.22-21.21.53:871][673]OBJ SavePackage: Finished generating thumbnails for package [/Game/TheMagesOdyssey/CaveLighting]
+[2024.04.22-21.21.53:874][673]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TheMagesOdyssey/CaveLighting_Auto1
+[2024.04.22-21.21.53:874][673]LogSavePackage: Moving '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Saved/CaveLighting_Auto19D112D004DC74C814EC4A3AA4D63A9E8.tmp' to '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Saved/Autosaves/Game/TheMagesOdyssey/CaveLighting_Auto1.uasset'
+[2024.04.22-21.21.53:875][673]LogFileHelpers: Auto-saving content packages took 0.005
+[2024.04.22-21.22.45:642][295]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.04.22-21.24.44:458][281]Cmd: TRANSACTION UNDO
+[2024.04.22-21.24.44:458][281]LogEditorTransaction: Undo Move Elements
+[2024.04.22-21.24.45:721][339]Cmd: TRANSACTION UNDO
+[2024.04.22-21.24.45:721][339]LogEditorTransaction: Undo Move Elements
+[2024.04.22-21.27.35:076][995]LogSlate: Window 'Color Picker' being destroyed
+[2024.04.22-21.28.19:777][ 41]LogSlate: Window 'Color Picker' being destroyed
