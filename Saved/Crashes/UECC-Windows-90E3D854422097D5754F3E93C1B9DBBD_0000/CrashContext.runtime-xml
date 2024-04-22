@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>D542179443FAE646D32E40B0E715B0C5</ExecutionGuid>
+		<CrashGUID>UECC-Windows-90E3D854422097D5754F3E93C1B9DBBD_0000</CrashGUID>
+		<IsEnsure>true</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<ErrorMessage>Ensure condition failed: LocalState.GetWriterThreadId() == CurrentThreadId [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Misc\MTAccessDetector.h] [Line: 589] Data race detected: acquiring write access on thread 13172 concurrently with 1 writers on thread 2448: Current thread 13172 callstack: 0x00007ffb894c9f11 UnknownFunction [] 0x00007ffb894e5b9c UnknownFunction [] 0x00007ffb894bb120 UnknownFunction [] 0x00007ffb894b2a74 UnknownFunction [] 0x00007ffb894d51e8 UnknownFunction [] 0x00007ffb894c8b0c UnknownFunction [] 0x00007ffbc55c227d UnknownFunction [] 0x00007ffbc55cafd3 UnknownFunction [] 0x00007ffbc55d8cd5 UnknownFunction [] 0x00007ffbc55d8a7c UnknownFunction [] 0x00007ffbc55b80e2 UnknownFunction [] 0x00007ffbc56008c2 UnknownFunction [] 0x00007ffbc55c8b60 UnknownFunction [] 0x00007ffbc57af773 UnknownFunction [] 0x00007ffbc5be4e32 UnknownFunction [] 0x00007ffbc5bd8667 UnknownFunction [] 0x00007ffc5c317344 UnknownFunction [] 0x00007ffc5d8026b1 UnknownFunction [] Writer thread 2448 callstack: 0x00007ffc5d7e26cc UnknownFunction [] 0x00007ffc5d7c7bc4 UnknownFunction [] 0x00007ffc5d7c4c14 UnknownFunction [] 0x00007ffc5d80fd53 UnknownFunction [] 0x00007ffc5d8105f2 UnknownFunction [] 0x00007ffc5d80ed29 UnknownFunction [] 0x00007ffc5d80eb58 UnknownFunction [] 0x00007ffc5d7cfb5d UnknownFunction [] 0x00007ffc5d7c73e4 UnknownFunction [] 0x00007ffc5d7c6af4 UnknownFunction [] 0x00007ffc5b243322 UnknownFunction [] 0x00007ffbc5bdb6e1 UnknownFunction [] 0x00007ffbc5bd6ca3 UnknownFunction [] 0x00007ffbc59f57af UnknownFunction [] 0x00007ffc084687ee UnknownFunction [] 0x00007ffc084856c3 UnknownFunction [] 0x00007ffc0846801a UnknownFunction [] 0x00007ff7872a2463 UnknownFunction [] 0x00007ff7872a634f UnknownFunction [] 0x00007ff78729cfb6 UnknownFunction [] 0x00007ff78729d37a UnknownFunction [] 0x00007ff7872a0854 UnknownFunction [] 0x00007ff7872b6984 UnknownFunction [] 0x00007ff7872b9d7a UnknownFunction [] 0x00007ffc5c317344 UnknownFunction [] Stack: 0x00007ffb894bb120</ErrorMessage>
+		<CrashReporterMessage />
+		<AttendedStatus>Attended</AttendedStatus>
+		<ProcessId>15104</ProcessId>
+		<SecondsSinceStart>0</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsWithDebugInfo>true</IsWithDebugInfo>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-TheMagesOdyssey</GameName>
+		<ExecutableName>UnrealEditor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>WindowsEditor</PlatformName>
+		<PlatformFullName>Win64 [Windows 10 (22H2) [10.0.19045.4291]  64b]</PlatformFullName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.3.2-29314046+++UE5+Release-5.3</EngineVersion>
+		<EngineCompatibleVersion>5.3.2-29314046+++UE5+Release-5.3</EngineCompatibleVersion>
+		<CommandLine>CommandLineRemoved</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>en-US</AppDefaultLocale>
+		<BuildVersion>++UE5+Release-5.3-CL-29314046</BuildVersion>
+		<Symbols>**UE5*Release-5.3-CL-29314046-Win64-Development</Symbols>
+		<IsUERelease>true</IsUERelease>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>C:/Program Files/Epic Games/UE_5.3/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Program Files/Epic Games/UE_5.3/</RootDir>
+		<MachineId>605255BD4010D5795DC48580F6F38AE7</MachineId>
+		<LoginId>605255bd4010d5795dc48580f6f38ae7</LoginId>
+		<EpicAccountId>c8a15060673149d9aff7b97064983120</EpicAccountId>
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce RTX 3070 Ti</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10 (22H2) [10.0.19045.4291]</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>68658286592</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>78858833920</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>64</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>58180988928</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>63233003520</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>1352814592</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>1352830976</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>1541681152</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>1541681152</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>7</NumMinidumpFramesToIgnore>
+		<CallStack />
+		<PCallStack>UnrealEditor-LiveCoding 0x00007ffb894b0000 + b120 UnrealEditor-LiveCoding 0x00007ffb894b0000 + 2a74 UnrealEditor-LiveCoding 0x00007ffb894b0000 + 251e8 UnrealEditor-LiveCoding 0x00007ffb894b0000 + 18b0c UnrealEditor-Core 0x00007ffbc5560000 + 6227d UnrealEditor-Core 0x00007ffbc5560000 + 6afd3 UnrealEditor-Core 0x00007ffbc5560000 + 78cd5 UnrealEditor-Core 0x00007ffbc5560000 + 78a7c UnrealEditor-Core 0x00007ffbc5560000 + 580e2 UnrealEditor-Core 0x00007ffbc5560000 + a08c2 UnrealEditor-Core 0x00007ffbc5560000 + 68b60 UnrealEditor-Core 0x00007ffbc5560000 + 24f773 UnrealEditor-Core 0x00007ffbc5560000 + 684e32 UnrealEditor-Core 0x00007ffbc5560000 + 678667 KERNEL32 0x00007ffc5c300000 + 17344 ntdll 0x00007ffc5d7b0000 + 526b1</PCallStack>
+		<PCallStackHash>5B3599C6FC58BEEADF2600D262247DD31CEFB152</PCallStackHash>
+		<Threads>
+			<Thread>
+				<CallStack>KERNELBASE 0x00007ffc5b210000 + 2ab89 UnrealEditor-Core 0x00007ffbc5560000 + 6038f8 UnrealEditor-Core 0x00007ffbc5560000 + 60372b UnrealEditor-Core 0x00007ffbc5560000 + 3a64a7 UnrealEditor-Core 0x00007ffbc5560000 + 3bf325 UnrealEditor-Core 0x00007ffbc5560000 + c996f2 UnrealEditor-LiveCoding 0x00007ffb894b0000 + 35c1b UnrealEditor-LiveCoding 0x00007ffb894b0000 + b120 UnrealEditor-LiveCoding 0x00007ffb894b0000 + 2a74 UnrealEditor-LiveCoding 0x00007ffb894b0000 + 251e8 UnrealEditor-LiveCoding 0x00007ffb894b0000 + 18b0c UnrealEditor-Core 0x00007ffbc5560000 + 6227d UnrealEditor-Core 0x00007ffbc5560000 + 6afd3 UnrealEditor-Core 0x00007ffbc5560000 + 78cd5 UnrealEditor-Core 0x00007ffbc5560000 + 78a7c UnrealEditor-Core 0x00007ffbc5560000 + 580e2 UnrealEditor-Core 0x00007ffbc5560000 + a08c2 UnrealEditor-Core 0x00007ffbc5560000 + 68b60 UnrealEditor-Core 0x00007ffbc5560000 + 24f773 UnrealEditor-Core 0x00007ffbc5560000 + 684e32 UnrealEditor-Core 0x00007ffbc5560000 + 678667 KERNEL32 0x00007ffc5c300000 + 17344 ntdll 0x00007ffc5d7b0000 + 526b1</CallStack>
+				<IsCrashed>true</IsCrashed>
+				<Registers />
+				<ThreadID>13172</ThreadID>
+				<ThreadName>Foreground Worker #0</ThreadName>
+			</Thread>
+		</Threads>
+		<TimeOfCrash>638493749905330000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<CPUBrand>Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<IsRunningOnBattery>false</IsRunningOnBattery>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData>
+		<MatchingDPStatus>WindowsEditorNo errors</MatchingDPStatus>
+		<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+		<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+		<RHI.D3DDebug>false</RHI.D3DDebug>
+		<RHI.Breadcrumbs>true</RHI.Breadcrumbs>
+		<RHI.DRED>false</RHI.DRED>
+		<RHI.DREDMarkersOnly>true</RHI.DREDMarkersOnly>
+		<RHI.DREDContext>false</RHI.DREDContext>
+		<RHI.Aftermath>true</RHI.Aftermath>
+		<RHI.RHIName>D3D12</RHI.RHIName>
+		<RHI.AdapterName>NVIDIA GeForce RTX 3070 Ti</RHI.AdapterName>
+		<RHI.UserDriverVersion>545.84</RHI.UserDriverVersion>
+		<RHI.InternalDriverVersion>31.0.15.4584</RHI.InternalDriverVersion>
+		<RHI.DriverDate>10-11-2023</RHI.DriverDate>
+		<RHI.FeatureLevel>SM6</RHI.FeatureLevel>
+		<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+		<RHI.DeviceId>2482</RHI.DeviceId>
+		<DeviceProfile.Name>WindowsEditor</DeviceProfile.Name>
+	</EngineData>
+	<GameData />
+</FGenericCrashContext>
