@@ -3049,3 +3049,713 @@ Script Stack (0 frames) :
 [2024.04.22-09.57.47:886][971]LogFileHelpers: InternalPromptForCheckoutAndSave took 158 ms (total: 4.09 sec)
 [2024.04.22-09.57.47:889][971]AssetCheck: New page: Asset Save: VRTemplateMap
 [2024.04.22-09.57.47:889][971]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2024.04.22-09.58.42:389][354]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-09.58.42:490][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.04.22-09.58.42:522][354]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2024.04.22-09.58.42:522][354]LogSavePackage: Moving '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Saved/VRTemplateMap432B29DD4C18B612D1CC4CA65A71403E.tmp' to '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2024.04.22-09.58.42:529][354]LogFileHelpers: All files are already saved.
+[2024.04.22-09.58.42:529][354]LogFileHelpers: Saving map 'VRTemplateMap' took 0.084
+[2024.04.22-09.58.42:536][354]LogFileHelpers: InternalPromptForCheckoutAndSave took 147 ms (total: 4.24 sec)
+[2024.04.22-09.58.42:538][354]AssetCheck: New page: Asset Save: VRTemplateMap
+[2024.04.22-09.58.42:538][354]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2024.04.22-09.59.09:341][999]LogEditorTransaction: Undo Delete current selection
+[2024.04.22-09.59.20:354][553]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-09.59.20:398][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TheMagesOdyssey/Global" FILE="../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset" SILENT=true
+[2024.04.22-09.59.20:425][553]LogSavePackage: Moving output files for package: /Game/TheMagesOdyssey/Global
+[2024.04.22-09.59.20:426][553]LogSavePackage: Moving '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Saved/Global252C3E8A4A184EF77BCDABB062D895F7.tmp' to '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset'
+[2024.04.22-09.59.20:433][553]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 4.32 sec)
+[2024.04.22-09.59.20:435][553]AssetCheck: New page: Asset Save: Global
+[2024.04.22-09.59.20:435][553]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TheMagesOdyssey/Global.Global
+[2024.04.22-09.59.21:584][614]BlueprintLog: New page: Compile Global
+[2024.04.22-09.59.21:635][614]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.04.22-09.59.24:830][773]LogDebuggerCommands: Repeating last play command: VR Preview
+[2024.04.22-09.59.24:841][773]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.22-09.59.24:841][773]PIE: New page: PIE session: VRTemplateMap (Apr 22, 2024, 1:59:24 AM)
+[2024.04.22-09.59.24:842][773]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2024.04.22-09.59.24:854][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012074s)
+[2024.04.22-09.59.24:854][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.012117s)
+[2024.04.22-09.59.24:872][773]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.04.22-09.59.24:875][773]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.22-09.59.24:876][773]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.22-09.59.24:876][773]LogAIModule: Creating AISystem for world VRTemplateMap
+[2024.04.22-09.59.24:876][773]LogPlayLevel: PIE: World Init took: (0.000953s)
+[2024.04.22-09.59.24:876][773]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.04.22-09.59.24:876][773]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.22-09.59.24:876][773]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.22-09.59.24:876][773]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.22-09.59.24:876][773]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.22-09.59.24:876][773]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.22-09.59.24:876][773]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.22-09.59.24:876][773]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.22-09.59.24:876][773]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.22-09.59.24:877][773]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.22-09.59.24:877][773]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.22-09.59.24:877][773]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.22-09.59.24:879][773]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.22-09.59.24:910][773]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- VIVE Pro Mutimedia Audio)
+[2024.04.22-09.59.24:910][773]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.22-09.59.24:910][773]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.22-09.59.24:910][773]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.22-09.59.24:910][773]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.04.22-09.59.24:910][773]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.04.22-09.59.24:913][773]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.04.22-09.59.24:913][773]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.04.22-09.59.24:913][773]LogInit: FAudioDevice initialized with ID 15.
+[2024.04.22-09.59.24:913][773]LogAudio: Display: Audio Device (ID: 15) registered with world 'VRTemplateMap'.
+[2024.04.22-09.59.24:913][773]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.04.22-09.59.24:926][773]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.22-09.59.25:472][773]LogLoad: Game class is 'VRGameMode_C'
+[2024.04.22-09.59.25:477][773]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2024.04.22-05.59.25
+[2024.04.22-09.59.25:477][773]LogWorld: Bringing up level for play took: 0.005463
+[2024.04.22-09.59.25:479][773]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2024.04.22-09.59.25:482][773]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2024.04.22-09.59.25:486][773]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2024.04.22-09.59.25:487][773]vr.PixelDensity = "1"
+[2024.04.22-09.59.25:505][773]PIE: Server logged in
+[2024.04.22-09.59.25:520][773]PIE: Play in editor total start time 0.679 seconds.
+[2024.04.22-09.59.25:651][773]LogViewport: Scene viewport resized to 2224x1112, mode Windowed.
+[2024.04.22-09.59.25:666][773]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2024.04.22-09.59.30:633][965]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.22-09.59.30:633][965]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2024.04.22-09.59.30:726][965]LogSlate: Window 'TheMagesOdyssey Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR SteamVR/OpenXR in Meta compatibility mode (2.4.4)' being destroyed
+[2024.04.22-09.59.30:729][965]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.22-09.59.30:730][965]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-09.59.30:735][965]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.22-09.59.30:741][965]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-09.59.30:760][965]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.04.22-09.59.30:760][965]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.04.22-09.59.30:761][965]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.04.22-09.59.30:767][965]LogSlate: Slate User Unregistered.  User Index 8
+[2024.04.22-09.59.30:767][965]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2024.04.22-09.59.30:769][965]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.04.22-09.59.30:831][966]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.04.22-09.59.48:771][949]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-09.59.48:830][949]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TheMagesOdyssey/Global" FILE="../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset" SILENT=true
+[2024.04.22-09.59.48:858][949]LogSavePackage: Moving output files for package: /Game/TheMagesOdyssey/Global
+[2024.04.22-09.59.48:859][949]LogSavePackage: Moving '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Saved/Global7284F6DD4579DCE636D2E2BB4C4C85BA.tmp' to '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset'
+[2024.04.22-09.59.48:865][949]LogFileHelpers: InternalPromptForCheckoutAndSave took 94 ms (total: 4.41 sec)
+[2024.04.22-09.59.48:867][949]AssetCheck: New page: Asset Save: Global
+[2024.04.22-09.59.48:867][949]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TheMagesOdyssey/Global.Global
+[2024.04.22-09.59.51:828][130]BlueprintLog: New page: Compile Global
+[2024.04.22-09.59.51:880][130]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.04.22-09.59.52:429][149]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-09.59.52:466][149]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TheMagesOdyssey/Global" FILE="../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset" SILENT=true
+[2024.04.22-09.59.52:490][149]LogSavePackage: Moving output files for package: /Game/TheMagesOdyssey/Global
+[2024.04.22-09.59.52:491][149]LogSavePackage: Moving '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Saved/Global0195711647FEAF4FE63361BB2CCC0442.tmp' to '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset'
+[2024.04.22-09.59.52:497][149]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms (total: 4.48 sec)
+[2024.04.22-09.59.52:499][149]AssetCheck: New page: Asset Save: Global
+[2024.04.22-09.59.52:499][149]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TheMagesOdyssey/Global.Global
+[2024.04.22-09.59.53:348][194]LogDebuggerCommands: Repeating last play command: VR Preview
+[2024.04.22-09.59.53:356][194]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.22-09.59.53:356][194]PIE: New page: PIE session: VRTemplateMap (Apr 22, 2024, 1:59:53 AM)
+[2024.04.22-09.59.53:356][194]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2024.04.22-09.59.53:365][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009177s)
+[2024.04.22-09.59.53:366][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.009217s)
+[2024.04.22-09.59.53:381][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.04.22-09.59.53:384][194]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.22-09.59.53:385][194]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.22-09.59.53:385][194]LogAIModule: Creating AISystem for world VRTemplateMap
+[2024.04.22-09.59.53:385][194]LogPlayLevel: PIE: World Init took: (0.000973s)
+[2024.04.22-09.59.53:385][194]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.04.22-09.59.53:385][194]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.22-09.59.53:385][194]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.22-09.59.53:385][194]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.22-09.59.53:385][194]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.22-09.59.53:385][194]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.22-09.59.53:385][194]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.22-09.59.53:385][194]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.22-09.59.53:385][194]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.22-09.59.53:386][194]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.22-09.59.53:386][194]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.22-09.59.53:386][194]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.22-09.59.53:388][194]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.22-09.59.53:414][194]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- VIVE Pro Mutimedia Audio)
+[2024.04.22-09.59.53:414][194]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.22-09.59.53:414][194]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.22-09.59.53:414][194]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.22-09.59.53:415][194]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.04.22-09.59.53:415][194]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.04.22-09.59.53:417][194]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.04.22-09.59.53:417][194]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.04.22-09.59.53:417][194]LogInit: FAudioDevice initialized with ID 16.
+[2024.04.22-09.59.53:417][194]LogAudio: Display: Audio Device (ID: 16) registered with world 'VRTemplateMap'.
+[2024.04.22-09.59.53:417][194]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.04.22-09.59.53:428][194]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.22-09.59.56:472][194]LogLoad: Game class is 'VRGameMode_C'
+[2024.04.22-09.59.56:477][194]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2024.04.22-05.59.56
+[2024.04.22-09.59.56:478][194]LogWorld: Bringing up level for play took: 0.005244
+[2024.04.22-09.59.56:481][194]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2024.04.22-09.59.56:484][194]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2024.04.22-09.59.56:487][194]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2024.04.22-09.59.56:488][194]vr.PixelDensity = "1"
+[2024.04.22-09.59.56:504][194]PIE: Server logged in
+[2024.04.22-09.59.56:514][194]PIE: Play in editor total start time 3.157 seconds.
+[2024.04.22-09.59.56:645][194]LogViewport: Scene viewport resized to 2224x1112, mode Windowed.
+[2024.04.22-09.59.56:658][194]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2024.04.22-10.00.01:822][386]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.22-10.00.01:823][386]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2024.04.22-10.00.01:934][386]LogSlate: Window 'TheMagesOdyssey Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR SteamVR/OpenXR in Meta compatibility mode (2.4.4)' being destroyed
+[2024.04.22-10.00.01:936][386]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.22-10.00.01:937][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-10.00.01:942][386]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.22-10.00.01:948][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-10.00.01:964][386]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.04.22-10.00.01:964][386]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.04.22-10.00.01:966][386]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.04.22-10.00.01:973][386]LogSlate: Slate User Unregistered.  User Index 8
+[2024.04.22-10.00.01:973][386]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2024.04.22-10.00.01:975][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.04.22-10.00.02:031][387]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.04.22-10.00.07:483][643]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-10.00.07:516][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TheMagesOdyssey/Global" FILE="../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset" SILENT=true
+[2024.04.22-10.00.07:547][643]LogSavePackage: Moving output files for package: /Game/TheMagesOdyssey/Global
+[2024.04.22-10.00.07:548][643]LogSavePackage: Moving '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Saved/Global1E2B82C34996C4A609BBE8AF9AC9F190.tmp' to '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset'
+[2024.04.22-10.00.07:555][643]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 4.55 sec)
+[2024.04.22-10.00.07:559][643]AssetCheck: New page: Asset Save: Global
+[2024.04.22-10.00.07:559][643]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TheMagesOdyssey/Global.Global
+[2024.04.22-10.00.08:091][670]BlueprintLog: New page: Compile Global
+[2024.04.22-10.00.08:153][670]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2024.04.22-10.00.08:717][685]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-10.00.08:767][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TheMagesOdyssey/Global" FILE="../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset" SILENT=true
+[2024.04.22-10.00.08:805][685]LogSavePackage: Moving output files for package: /Game/TheMagesOdyssey/Global
+[2024.04.22-10.00.08:805][685]LogSavePackage: Moving '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Saved/GlobalCBFBB7C8408B86C2ADBE16B45265EC61.tmp' to '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset'
+[2024.04.22-10.00.08:813][685]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 4.65 sec)
+[2024.04.22-10.00.08:816][685]AssetCheck: New page: Asset Save: Global
+[2024.04.22-10.00.08:816][685]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TheMagesOdyssey/Global.Global
+[2024.04.22-10.00.30:215][151]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-10.00.30:266][151]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TheMagesOdyssey/Global" FILE="../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset" SILENT=true
+[2024.04.22-10.00.30:294][151]LogSavePackage: Moving output files for package: /Game/TheMagesOdyssey/Global
+[2024.04.22-10.00.30:295][151]LogSavePackage: Moving '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Saved/GlobalAE5A4E3B4791554AB8C82DBC03E78A8E.tmp' to '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset'
+[2024.04.22-10.00.30:301][151]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 4.73 sec)
+[2024.04.22-10.00.30:301][151]AssetCheck: New page: Asset Save: Global
+[2024.04.22-10.00.30:301][151]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TheMagesOdyssey/Global.Global
+[2024.04.22-10.00.45:904][534]BlueprintLog: New page: Compile Global
+[2024.04.22-10.00.45:951][534]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.04.22-10.00.46:501][554]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-10.00.46:550][554]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TheMagesOdyssey/Global" FILE="../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset" SILENT=true
+[2024.04.22-10.00.46:577][554]LogSavePackage: Moving output files for package: /Game/TheMagesOdyssey/Global
+[2024.04.22-10.00.46:577][554]LogSavePackage: Moving '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Saved/Global860265D04B8E360E36694DBA84F081E2.tmp' to '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset'
+[2024.04.22-10.00.46:583][554]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 4.82 sec)
+[2024.04.22-10.00.46:585][554]AssetCheck: New page: Asset Save: Global
+[2024.04.22-10.00.46:585][554]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TheMagesOdyssey/Global.Global
+[2024.04.22-10.00.52:520][910]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-10.00.52:584][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TheMagesOdyssey/Global" FILE="../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset" SILENT=true
+[2024.04.22-10.00.52:610][910]LogSavePackage: Moving output files for package: /Game/TheMagesOdyssey/Global
+[2024.04.22-10.00.52:610][910]LogSavePackage: Moving '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Saved/Global67A0535B467636AAFE578D95763AB491.tmp' to '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset'
+[2024.04.22-10.00.52:616][910]LogFileHelpers: InternalPromptForCheckoutAndSave took 95 ms (total: 4.91 sec)
+[2024.04.22-10.00.52:618][910]AssetCheck: New page: Asset Save: Global
+[2024.04.22-10.00.52:618][910]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TheMagesOdyssey/Global.Global
+[2024.04.22-10.00.53:549][962]LogDebuggerCommands: Repeating last play command: VR Preview
+[2024.04.22-10.00.53:557][962]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.22-10.00.53:557][962]PIE: New page: PIE session: VRTemplateMap (Apr 22, 2024, 2:00:53 AM)
+[2024.04.22-10.00.53:557][962]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2024.04.22-10.00.53:567][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009427s)
+[2024.04.22-10.00.53:567][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.009462s)
+[2024.04.22-10.00.53:583][962]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.04.22-10.00.53:587][962]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.22-10.00.53:587][962]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.22-10.00.53:587][962]LogAIModule: Creating AISystem for world VRTemplateMap
+[2024.04.22-10.00.53:588][962]LogPlayLevel: PIE: World Init took: (0.000964s)
+[2024.04.22-10.00.53:588][962]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.04.22-10.00.53:588][962]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.22-10.00.53:588][962]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.22-10.00.53:588][962]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.22-10.00.53:588][962]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.22-10.00.53:588][962]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.22-10.00.53:588][962]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.22-10.00.53:588][962]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.22-10.00.53:588][962]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.22-10.00.53:588][962]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.22-10.00.53:588][962]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.22-10.00.53:588][962]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.22-10.00.53:590][962]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.22-10.00.53:615][962]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- VIVE Pro Mutimedia Audio)
+[2024.04.22-10.00.53:616][962]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.22-10.00.53:616][962]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.22-10.00.53:616][962]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.22-10.00.53:617][962]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.04.22-10.00.53:617][962]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.04.22-10.00.53:619][962]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.04.22-10.00.53:619][962]LogInit: FAudioDevice initialized with ID 17.
+[2024.04.22-10.00.53:619][962]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.04.22-10.00.53:619][962]LogAudio: Display: Audio Device (ID: 17) registered with world 'VRTemplateMap'.
+[2024.04.22-10.00.53:619][962]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.04.22-10.00.53:630][962]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.22-10.00.55:674][962]LogLoad: Game class is 'VRGameMode_C'
+[2024.04.22-10.00.55:679][962]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2024.04.22-06.00.55
+[2024.04.22-10.00.55:680][962]LogWorld: Bringing up level for play took: 0.005289
+[2024.04.22-10.00.55:683][962]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2024.04.22-10.00.55:686][962]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2024.04.22-10.00.55:689][962]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2024.04.22-10.00.55:690][962]vr.PixelDensity = "1"
+[2024.04.22-10.00.55:708][962]PIE: Server logged in
+[2024.04.22-10.00.55:719][962]PIE: Play in editor total start time 2.162 seconds.
+[2024.04.22-10.00.55:907][962]LogViewport: Scene viewport resized to 2224x1112, mode Windowed.
+[2024.04.22-10.00.55:921][962]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2024.04.22-10.01.01:403][165]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.22-10.01.01:403][165]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2024.04.22-10.01.01:502][165]LogSlate: Window 'TheMagesOdyssey Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR SteamVR/OpenXR in Meta compatibility mode (2.4.4)' being destroyed
+[2024.04.22-10.01.01:504][165]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.22-10.01.01:505][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-10.01.01:510][165]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.22-10.01.01:517][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-10.01.01:534][165]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.04.22-10.01.01:534][165]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.04.22-10.01.01:536][165]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.04.22-10.01.01:542][165]LogSlate: Slate User Unregistered.  User Index 8
+[2024.04.22-10.01.01:542][165]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2024.04.22-10.01.01:544][165]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.04.22-10.01.01:592][166]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2024.04.22-10.01.02:896][227]LogDebuggerCommands: Repeating last play command: VR Preview
+[2024.04.22-10.01.02:905][227]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.22-10.01.02:905][227]PIE: New page: PIE session: VRTemplateMap (Apr 22, 2024, 2:01:02 AM)
+[2024.04.22-10.01.02:905][227]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2024.04.22-10.01.02:915][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010204s)
+[2024.04.22-10.01.02:915][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.010247s)
+[2024.04.22-10.01.02:934][227]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.04.22-10.01.02:935][227]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.22-10.01.02:936][227]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.22-10.01.02:936][227]LogAIModule: Creating AISystem for world VRTemplateMap
+[2024.04.22-10.01.02:937][227]LogPlayLevel: PIE: World Init took: (0.001259s)
+[2024.04.22-10.01.02:937][227]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.04.22-10.01.02:937][227]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.22-10.01.02:937][227]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.22-10.01.02:937][227]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.22-10.01.02:937][227]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.22-10.01.02:937][227]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.22-10.01.02:937][227]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.22-10.01.02:937][227]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.22-10.01.02:937][227]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.22-10.01.02:937][227]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.22-10.01.02:938][227]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.22-10.01.02:938][227]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.22-10.01.02:940][227]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.22-10.01.02:970][227]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- VIVE Pro Mutimedia Audio)
+[2024.04.22-10.01.02:970][227]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.22-10.01.02:970][227]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.22-10.01.02:970][227]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.22-10.01.02:971][227]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.04.22-10.01.02:971][227]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.04.22-10.01.02:973][227]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.04.22-10.01.02:973][227]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.04.22-10.01.02:973][227]LogInit: FAudioDevice initialized with ID 18.
+[2024.04.22-10.01.02:973][227]LogAudio: Display: Audio Device (ID: 18) registered with world 'VRTemplateMap'.
+[2024.04.22-10.01.02:974][227]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.04.22-10.01.02:986][227]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.22-10.01.07:040][227]LogLoad: Game class is 'VRGameMode_C'
+[2024.04.22-10.01.07:045][227]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2024.04.22-06.01.07
+[2024.04.22-10.01.07:045][227]LogWorld: Bringing up level for play took: 0.004909
+[2024.04.22-10.01.07:048][227]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2024.04.22-10.01.07:050][227]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2024.04.22-10.01.07:054][227]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2024.04.22-10.01.07:055][227]vr.PixelDensity = "1"
+[2024.04.22-10.01.07:071][227]PIE: Server logged in
+[2024.04.22-10.01.07:082][227]PIE: Play in editor total start time 4.177 seconds.
+[2024.04.22-10.01.07:256][227]LogViewport: Scene viewport resized to 2224x1112, mode Windowed.
+[2024.04.22-10.01.07:268][227]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2024.04.22-10.01.10:463][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.22-10.01.10:463][334]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2024.04.22-10.01.10:567][334]LogSlate: Window 'TheMagesOdyssey Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR SteamVR/OpenXR in Meta compatibility mode (2.4.4)' being destroyed
+[2024.04.22-10.01.10:569][334]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.22-10.01.10:570][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-10.01.10:576][334]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.22-10.01.10:582][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-10.01.10:597][334]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.04.22-10.01.10:597][334]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.04.22-10.01.10:599][334]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.04.22-10.01.10:605][334]LogSlate: Slate User Unregistered.  User Index 8
+[2024.04.22-10.01.10:605][334]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2024.04.22-10.01.10:607][334]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.04.22-10.01.10:663][335]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2024.04.22-10.01.20:679][824]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-10.01.20:734][824]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TheMagesOdyssey/Global" FILE="../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset" SILENT=true
+[2024.04.22-10.01.20:772][824]LogSavePackage: Moving output files for package: /Game/TheMagesOdyssey/Global
+[2024.04.22-10.01.20:772][824]LogSavePackage: Moving '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Saved/GlobalA2403662410FB9711D9518A7D573856D.tmp' to '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset'
+[2024.04.22-10.01.20:779][824]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 5.01 sec)
+[2024.04.22-10.01.20:784][824]AssetCheck: New page: Asset Save: Global
+[2024.04.22-10.01.20:784][824]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TheMagesOdyssey/Global.Global
+[2024.04.22-10.01.22:240][902]BlueprintLog: New page: Compile Global
+[2024.04.22-10.01.22:297][902]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2024.04.22-10.01.22:929][923]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-10.01.22:984][923]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TheMagesOdyssey/Global" FILE="../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset" SILENT=true
+[2024.04.22-10.01.23:015][923]LogSavePackage: Moving output files for package: /Game/TheMagesOdyssey/Global
+[2024.04.22-10.01.23:015][923]LogSavePackage: Moving '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Saved/Global13673E5B47344D50634E62A15323C7C1.tmp' to '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset'
+[2024.04.22-10.01.23:021][923]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 5.10 sec)
+[2024.04.22-10.01.23:026][923]AssetCheck: New page: Asset Save: Global
+[2024.04.22-10.01.23:026][923]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TheMagesOdyssey/Global.Global
+[2024.04.22-10.01.30:410][401]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-10.01.30:467][401]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TheMagesOdyssey/Global" FILE="../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset" SILENT=true
+[2024.04.22-10.01.30:493][401]LogSavePackage: Moving output files for package: /Game/TheMagesOdyssey/Global
+[2024.04.22-10.01.30:494][401]LogSavePackage: Moving '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Saved/Global9CBE33F04DECCF7B860FF58877457957.tmp' to '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset'
+[2024.04.22-10.01.30:501][401]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 5.19 sec)
+[2024.04.22-10.01.30:502][401]AssetCheck: New page: Asset Save: Global
+[2024.04.22-10.01.30:503][401]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TheMagesOdyssey/Global.Global
+[2024.04.22-10.01.31:140][443]BlueprintLog: New page: Compile Global
+[2024.04.22-10.01.31:181][443]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2024.04.22-10.01.32:175][500]LogDebuggerCommands: Repeating last play command: VR Preview
+[2024.04.22-10.01.32:182][500]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.22-10.01.32:183][500]PIE: New page: PIE session: VRTemplateMap (Apr 22, 2024, 2:01:32 AM)
+[2024.04.22-10.01.32:183][500]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2024.04.22-10.01.32:193][500]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010216s)
+[2024.04.22-10.01.32:193][500]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.010260s)
+[2024.04.22-10.01.32:208][500]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.04.22-10.01.32:211][500]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.22-10.01.32:211][500]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.22-10.01.32:212][500]LogAIModule: Creating AISystem for world VRTemplateMap
+[2024.04.22-10.01.32:212][500]LogPlayLevel: PIE: World Init took: (0.001021s)
+[2024.04.22-10.01.32:212][500]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.04.22-10.01.32:212][500]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.22-10.01.32:212][500]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.22-10.01.32:212][500]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.22-10.01.32:212][500]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.22-10.01.32:212][500]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.22-10.01.32:212][500]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.22-10.01.32:212][500]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.22-10.01.32:212][500]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.22-10.01.32:213][500]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.22-10.01.32:213][500]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.22-10.01.32:213][500]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.22-10.01.32:215][500]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.22-10.01.32:239][500]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- VIVE Pro Mutimedia Audio)
+[2024.04.22-10.01.32:239][500]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.22-10.01.32:239][500]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.22-10.01.32:239][500]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.22-10.01.32:239][500]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.04.22-10.01.32:239][500]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.04.22-10.01.32:242][500]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.04.22-10.01.32:242][500]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.04.22-10.01.32:242][500]LogInit: FAudioDevice initialized with ID 19.
+[2024.04.22-10.01.32:242][500]LogAudio: Display: Audio Device (ID: 19) registered with world 'VRTemplateMap'.
+[2024.04.22-10.01.32:242][500]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.04.22-10.01.32:254][500]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.22-10.01.33:290][500]LogLoad: Game class is 'VRGameMode_C'
+[2024.04.22-10.01.33:294][500]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2024.04.22-06.01.33
+[2024.04.22-10.01.33:295][500]LogWorld: Bringing up level for play took: 0.004565
+[2024.04.22-10.01.33:298][500]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2024.04.22-10.01.33:301][500]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2024.04.22-10.01.33:303][500]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2024.04.22-10.01.33:304][500]vr.PixelDensity = "1"
+[2024.04.22-10.01.33:317][500]PIE: Server logged in
+[2024.04.22-10.01.33:330][500]PIE: Play in editor total start time 1.147 seconds.
+[2024.04.22-10.01.33:500][500]LogViewport: Scene viewport resized to 2224x1112, mode Windowed.
+[2024.04.22-10.01.33:521][500]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2024.04.22-10.01.50:074][277]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.22-10.01.50:074][277]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2024.04.22-10.01.50:166][277]LogSlate: Window 'TheMagesOdyssey Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR SteamVR/OpenXR in Meta compatibility mode (2.4.4)' being destroyed
+[2024.04.22-10.01.50:167][277]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.22-10.01.50:168][277]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-10.01.50:173][277]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.22-10.01.50:181][277]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-10.01.50:197][277]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.04.22-10.01.50:197][277]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.04.22-10.01.50:199][277]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.04.22-10.01.50:205][277]LogSlate: Slate User Unregistered.  User Index 8
+[2024.04.22-10.01.50:206][277]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2024.04.22-10.01.50:207][277]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.04.22-10.01.50:251][278]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2024.04.22-10.02.42:795][680]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-10.02.42:851][680]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TheMagesOdyssey/Global" FILE="../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset" SILENT=true
+[2024.04.22-10.02.42:876][680]LogSavePackage: Moving output files for package: /Game/TheMagesOdyssey/Global
+[2024.04.22-10.02.42:876][680]LogSavePackage: Moving '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Saved/Global1700104A431EA35D865544B237D18560.tmp' to '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset'
+[2024.04.22-10.02.42:882][680]LogFileHelpers: InternalPromptForCheckoutAndSave took 87 ms (total: 5.28 sec)
+[2024.04.22-10.02.42:884][680]AssetCheck: New page: Asset Save: Global
+[2024.04.22-10.02.42:884][680]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TheMagesOdyssey/Global.Global
+[2024.04.22-10.03.07:664][448]BlueprintLog: New page: Compile Global
+[2024.04.22-10.03.07:713][448]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.04.22-10.03.14:144][943]LogDebuggerCommands: Repeating last play command: VR Preview
+[2024.04.22-10.03.14:152][943]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.22-10.03.14:152][943]PIE: New page: PIE session: VRTemplateMap (Apr 22, 2024, 2:03:14 AM)
+[2024.04.22-10.03.14:152][943]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2024.04.22-10.03.14:162][943]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009836s)
+[2024.04.22-10.03.14:162][943]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.009872s)
+[2024.04.22-10.03.14:177][943]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.04.22-10.03.14:181][943]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.22-10.03.14:181][943]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.22-10.03.14:181][943]LogAIModule: Creating AISystem for world VRTemplateMap
+[2024.04.22-10.03.14:182][943]LogPlayLevel: PIE: World Init took: (0.000991s)
+[2024.04.22-10.03.14:182][943]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2024.04.22-10.03.14:182][943]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.22-10.03.14:182][943]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.22-10.03.14:182][943]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.22-10.03.14:182][943]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.22-10.03.14:182][943]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.22-10.03.14:182][943]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.22-10.03.14:182][943]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.22-10.03.14:182][943]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.22-10.03.14:182][943]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.22-10.03.14:183][943]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.22-10.03.14:183][943]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.22-10.03.14:185][943]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.22-10.03.14:210][943]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- VIVE Pro Mutimedia Audio)
+[2024.04.22-10.03.14:210][943]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.22-10.03.14:210][943]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.22-10.03.14:210][943]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.22-10.03.14:211][943]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2024.04.22-10.03.14:211][943]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2024.04.22-10.03.14:213][943]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2024.04.22-10.03.14:213][943]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2024.04.22-10.03.14:213][943]LogInit: FAudioDevice initialized with ID 20.
+[2024.04.22-10.03.14:213][943]LogAudio: Display: Audio Device (ID: 20) registered with world 'VRTemplateMap'.
+[2024.04.22-10.03.14:213][943]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2024.04.22-10.03.14:225][943]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.22-10.03.17:275][943]LogLoad: Game class is 'VRGameMode_C'
+[2024.04.22-10.03.17:281][943]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2024.04.22-06.03.17
+[2024.04.22-10.03.17:282][943]LogWorld: Bringing up level for play took: 0.006146
+[2024.04.22-10.03.17:285][943]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2024.04.22-10.03.17:287][943]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2024.04.22-10.03.17:290][943]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2024.04.22-10.03.17:291][943]vr.PixelDensity = "1"
+[2024.04.22-10.03.17:303][943]PIE: Server logged in
+[2024.04.22-10.03.17:315][943]PIE: Play in editor total start time 3.164 seconds.
+[2024.04.22-10.03.17:431][943]LogViewport: Scene viewport resized to 2224x1112, mode Windowed.
+[2024.04.22-10.03.17:488][943]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2024.04.22-10.03.24:235][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.22-10.03.24:235][286]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2024.04.22-10.03.24:317][286]LogSlate: Window 'TheMagesOdyssey Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR SteamVR/OpenXR in Meta compatibility mode (2.4.4)' being destroyed
+[2024.04.22-10.03.24:320][286]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.22-10.03.24:321][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-10.03.24:327][286]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.22-10.03.24:333][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-10.03.24:349][286]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2024.04.22-10.03.24:350][286]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.04.22-10.03.24:351][286]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.04.22-10.03.24:358][286]LogSlate: Slate User Unregistered.  User Index 8
+[2024.04.22-10.03.24:358][286]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2024.04.22-10.03.24:359][286]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.04.22-10.03.24:410][287]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2024.04.22-10.03.42:588][241]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-10.03.42:635][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TheMagesOdyssey/Global" FILE="../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset" SILENT=true
+[2024.04.22-10.03.42:661][241]LogSavePackage: Moving output files for package: /Game/TheMagesOdyssey/Global
+[2024.04.22-10.03.42:662][241]LogSavePackage: Moving '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Saved/GlobalF83231194C6F65D5BFE0F381590504D6.tmp' to '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset'
+[2024.04.22-10.03.42:668][241]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 5.36 sec)
+[2024.04.22-10.03.42:669][241]AssetCheck: New page: Asset Save: Global
+[2024.04.22-10.03.42:670][241]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TheMagesOdyssey/Global.Global
+[2024.04.22-10.03.43:740][292]BlueprintLog: New page: Compile Global
+[2024.04.22-10.03.43:792][292]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.04.22-10.03.44:975][346]LogDebuggerCommands: Repeating last play command: VR Preview
+[2024.04.22-10.03.44:983][346]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.22-10.03.44:983][346]PIE: New page: PIE session: VRTemplateMap (Apr 22, 2024, 2:03:44 AM)
+[2024.04.22-10.03.44:983][346]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2024.04.22-10.03.44:992][346]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008567s)
+[2024.04.22-10.03.44:992][346]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.008602s)
+[2024.04.22-10.03.45:007][346]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.04.22-10.03.45:010][346]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.22-10.03.45:011][346]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.22-10.03.45:011][346]LogAIModule: Creating AISystem for world VRTemplateMap
+[2024.04.22-10.03.45:011][346]LogPlayLevel: PIE: World Init took: (0.000933s)
+[2024.04.22-10.03.45:011][346]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.04.22-10.03.45:011][346]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.22-10.03.45:011][346]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.22-10.03.45:011][346]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.22-10.03.45:011][346]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.22-10.03.45:011][346]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.22-10.03.45:011][346]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.22-10.03.45:011][346]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.22-10.03.45:011][346]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.22-10.03.45:012][346]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.22-10.03.45:012][346]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.22-10.03.45:012][346]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.22-10.03.45:014][346]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.22-10.03.45:040][346]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- VIVE Pro Mutimedia Audio)
+[2024.04.22-10.03.45:041][346]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.22-10.03.45:041][346]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.22-10.03.45:041][346]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.22-10.03.45:041][346]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2024.04.22-10.03.45:041][346]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2024.04.22-10.03.45:044][346]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2024.04.22-10.03.45:044][346]LogInit: FAudioDevice initialized with ID 21.
+[2024.04.22-10.03.45:044][346]LogAudio: Display: Audio Device (ID: 21) registered with world 'VRTemplateMap'.
+[2024.04.22-10.03.45:044][346]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2024.04.22-10.03.45:044][346]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2024.04.22-10.03.45:057][346]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.22-10.03.47:610][346]LogLoad: Game class is 'VRGameMode_C'
+[2024.04.22-10.03.47:615][346]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2024.04.22-06.03.47
+[2024.04.22-10.03.47:615][346]LogWorld: Bringing up level for play took: 0.004645
+[2024.04.22-10.03.47:618][346]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2024.04.22-10.03.47:620][346]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2024.04.22-10.03.47:624][346]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2024.04.22-10.03.47:625][346]vr.PixelDensity = "1"
+[2024.04.22-10.03.47:638][346]PIE: Server logged in
+[2024.04.22-10.03.47:651][346]PIE: Play in editor total start time 2.668 seconds.
+[2024.04.22-10.03.47:836][346]LogViewport: Scene viewport resized to 2224x1112, mode Windowed.
+[2024.04.22-10.03.47:849][346]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2024.04.22-10.03.49:116][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.22-10.03.49:116][373]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2024.04.22-10.03.49:206][373]LogSlate: Window 'TheMagesOdyssey Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR SteamVR/OpenXR in Meta compatibility mode (2.4.4)' being destroyed
+[2024.04.22-10.03.49:208][373]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.22-10.03.49:209][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-10.03.49:215][373]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.22-10.03.49:221][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-10.03.49:237][373]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2024.04.22-10.03.49:237][373]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.04.22-10.03.49:239][373]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.04.22-10.03.49:245][373]LogSlate: Slate User Unregistered.  User Index 8
+[2024.04.22-10.03.49:245][373]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2024.04.22-10.03.49:247][373]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.04.22-10.03.49:305][374]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2024.04.22-10.04.42:653][ 24]Cmd: TRANSACTION UNDO
+[2024.04.22-10.04.42:653][ 24]LogEditorTransaction: Undo Move Elements
+[2024.04.22-10.04.43:868][ 78]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-10.04.43:968][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.04.22-10.04.44:000][ 78]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2024.04.22-10.04.44:001][ 78]LogSavePackage: Moving '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Saved/VRTemplateMap00C539A449582687487181AD3883D457.tmp' to '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2024.04.22-10.04.44:008][ 78]LogFileHelpers: All files are already saved.
+[2024.04.22-10.04.44:008][ 78]LogFileHelpers: Saving map 'VRTemplateMap' took 0.088
+[2024.04.22-10.04.44:016][ 78]LogFileHelpers: InternalPromptForCheckoutAndSave took 148 ms (total: 5.51 sec)
+[2024.04.22-10.04.44:018][ 78]AssetCheck: New page: Asset Save: VRTemplateMap
+[2024.04.22-10.04.44:018][ 78]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2024.04.22-10.04.57:350][969]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-10.04.57:432][969]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.04.22-10.04.57:463][969]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2024.04.22-10.04.57:464][969]LogSavePackage: Moving '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Saved/VRTemplateMap6CE996B0406419D1822243AE5F75C98B.tmp' to '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2024.04.22-10.04.57:470][969]LogFileHelpers: All files are already saved.
+[2024.04.22-10.04.57:470][969]LogFileHelpers: Saving map 'VRTemplateMap' took 0.085
+[2024.04.22-10.04.57:481][969]LogFileHelpers: InternalPromptForCheckoutAndSave took 132 ms (total: 5.64 sec)
+[2024.04.22-10.04.57:483][969]AssetCheck: New page: Asset Save: VRTemplateMap
+[2024.04.22-10.04.57:483][969]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2024.04.22-10.04.58:395][ 24]LogDebuggerCommands: Repeating last play command: VR Preview
+[2024.04.22-10.04.58:403][ 24]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.22-10.04.58:403][ 24]PIE: New page: PIE session: VRTemplateMap (Apr 22, 2024, 2:04:58 AM)
+[2024.04.22-10.04.58:403][ 24]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2024.04.22-10.04.58:412][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008570s)
+[2024.04.22-10.04.58:412][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.008604s)
+[2024.04.22-10.04.58:426][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.04.22-10.04.58:427][ 24]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.22-10.04.58:427][ 24]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.22-10.04.58:427][ 24]LogAIModule: Creating AISystem for world VRTemplateMap
+[2024.04.22-10.04.58:427][ 24]LogPlayLevel: PIE: World Init took: (0.000983s)
+[2024.04.22-10.04.58:427][ 24]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2024.04.22-10.04.58:428][ 24]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.22-10.04.58:428][ 24]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.22-10.04.58:428][ 24]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.22-10.04.58:428][ 24]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.22-10.04.58:428][ 24]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.22-10.04.58:428][ 24]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.22-10.04.58:428][ 24]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.22-10.04.58:428][ 24]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.22-10.04.58:428][ 24]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.22-10.04.58:428][ 24]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.22-10.04.58:428][ 24]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.22-10.04.58:431][ 24]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.22-10.04.58:457][ 24]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- VIVE Pro Mutimedia Audio)
+[2024.04.22-10.04.58:458][ 24]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.22-10.04.58:458][ 24]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.22-10.04.58:458][ 24]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.22-10.04.58:458][ 24]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2024.04.22-10.04.58:458][ 24]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2024.04.22-10.04.58:460][ 24]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2024.04.22-10.04.58:460][ 24]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2024.04.22-10.04.58:460][ 24]LogInit: FAudioDevice initialized with ID 22.
+[2024.04.22-10.04.58:460][ 24]LogAudio: Display: Audio Device (ID: 22) registered with world 'VRTemplateMap'.
+[2024.04.22-10.04.58:460][ 24]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2024.04.22-10.04.58:472][ 24]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.22-10.05.01:528][ 24]LogLoad: Game class is 'VRGameMode_C'
+[2024.04.22-10.05.01:532][ 24]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2024.04.22-06.05.01
+[2024.04.22-10.05.01:532][ 24]LogWorld: Bringing up level for play took: 0.003881
+[2024.04.22-10.05.01:535][ 24]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2024.04.22-10.05.01:538][ 24]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2024.04.22-10.05.01:541][ 24]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2024.04.22-10.05.01:542][ 24]vr.PixelDensity = "1"
+[2024.04.22-10.05.01:560][ 24]PIE: Server logged in
+[2024.04.22-10.05.01:574][ 24]PIE: Play in editor total start time 3.172 seconds.
+[2024.04.22-10.05.01:736][ 24]LogViewport: Scene viewport resized to 2224x1112, mode Windowed.
+[2024.04.22-10.05.01:771][ 24]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2024.04.22-10.05.02:597][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.22-10.05.02:597][ 45]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2024.04.22-10.05.02:697][ 45]LogSlate: Window 'TheMagesOdyssey Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR SteamVR/OpenXR in Meta compatibility mode (2.4.4)' being destroyed
+[2024.04.22-10.05.02:698][ 45]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.22-10.05.02:700][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-10.05.02:704][ 45]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.22-10.05.02:710][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-10.05.02:724][ 45]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.22-10.05.02:725][ 45]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2024.04.22-10.05.02:725][ 45]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.04.22-10.05.02:727][ 45]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.04.22-10.05.02:734][ 45]LogSlate: Slate User Unregistered.  User Index 8
+[2024.04.22-10.05.02:734][ 45]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2024.04.22-10.05.02:735][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.04.22-10.05.02:811][ 46]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2024.04.22-10.06.21:364][914]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-10.06.21:421][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TheMagesOdyssey/Global" FILE="../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset" SILENT=true
+[2024.04.22-10.06.21:446][914]LogSavePackage: Moving output files for package: /Game/TheMagesOdyssey/Global
+[2024.04.22-10.06.21:446][914]LogSavePackage: Moving '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Saved/Global48EC1318417691A6798E24A0E4FB9A1F.tmp' to '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset'
+[2024.04.22-10.06.21:453][914]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms (total: 5.73 sec)
+[2024.04.22-10.06.21:455][914]AssetCheck: New page: Asset Save: Global
+[2024.04.22-10.06.21:455][914]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TheMagesOdyssey/Global.Global
+[2024.04.22-10.06.25:779][181]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-10.06.25:822][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TheMagesOdyssey/Global" FILE="../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset" SILENT=true
+[2024.04.22-10.06.25:847][181]LogSavePackage: Moving output files for package: /Game/TheMagesOdyssey/Global
+[2024.04.22-10.06.25:847][181]LogSavePackage: Moving '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Saved/Global778FE2D8467BD97477D9359AFDD807E4.tmp' to '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset'
+[2024.04.22-10.06.25:853][181]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 5.81 sec)
+[2024.04.22-10.06.25:855][181]AssetCheck: New page: Asset Save: Global
+[2024.04.22-10.06.25:855][181]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TheMagesOdyssey/Global.Global
+[2024.04.22-10.06.27:435][281]BlueprintLog: New page: Compile Global
+[2024.04.22-10.06.27:479][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.04.22-10.06.28:122][309]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-10.06.28:172][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TheMagesOdyssey/Global" FILE="../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset" SILENT=true
+[2024.04.22-10.06.28:196][309]LogSavePackage: Moving output files for package: /Game/TheMagesOdyssey/Global
+[2024.04.22-10.06.28:196][309]LogSavePackage: Moving '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Saved/GlobalCEDF21B94AC964F4058B6185865186B0.tmp' to '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Global.uasset'
+[2024.04.22-10.06.28:210][309]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 5.89 sec)
+[2024.04.22-10.06.28:212][309]AssetCheck: New page: Asset Save: Global
+[2024.04.22-10.06.28:212][309]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TheMagesOdyssey/Global.Global
+[2024.04.22-10.06.29:228][375]LogDebuggerCommands: Repeating last play command: VR Preview
+[2024.04.22-10.06.29:238][375]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.22-10.06.29:238][375]PIE: New page: PIE session: VRTemplateMap (Apr 22, 2024, 2:06:29 AM)
+[2024.04.22-10.06.29:238][375]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2024.04.22-10.06.29:249][375]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010227s)
+[2024.04.22-10.06.29:249][375]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.010268s)
+[2024.04.22-10.06.29:263][375]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.04.22-10.06.29:267][375]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.22-10.06.29:267][375]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.22-10.06.29:267][375]LogAIModule: Creating AISystem for world VRTemplateMap
+[2024.04.22-10.06.29:268][375]LogPlayLevel: PIE: World Init took: (0.000964s)
+[2024.04.22-10.06.29:268][375]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2024.04.22-10.06.29:268][375]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.22-10.06.29:268][375]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.22-10.06.29:268][375]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.22-10.06.29:268][375]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.22-10.06.29:268][375]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.22-10.06.29:268][375]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.22-10.06.29:268][375]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.22-10.06.29:268][375]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.22-10.06.29:268][375]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.22-10.06.29:268][375]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.22-10.06.29:268][375]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.22-10.06.29:271][375]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.22-10.06.29:297][375]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- VIVE Pro Mutimedia Audio)
+[2024.04.22-10.06.29:298][375]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.22-10.06.29:298][375]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.22-10.06.29:298][375]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.22-10.06.29:298][375]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2024.04.22-10.06.29:298][375]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2024.04.22-10.06.29:301][375]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2024.04.22-10.06.29:301][375]LogInit: FAudioDevice initialized with ID 23.
+[2024.04.22-10.06.29:301][375]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2024.04.22-10.06.29:301][375]LogAudio: Display: Audio Device (ID: 23) registered with world 'VRTemplateMap'.
+[2024.04.22-10.06.29:301][375]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2024.04.22-10.06.29:312][375]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.22-10.06.32:362][375]LogLoad: Game class is 'VRGameMode_C'
+[2024.04.22-10.06.32:366][375]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2024.04.22-06.06.32
+[2024.04.22-10.06.32:367][375]LogWorld: Bringing up level for play took: 0.004192
+[2024.04.22-10.06.32:369][375]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2024.04.22-10.06.32:372][375]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2024.04.22-10.06.32:375][375]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2024.04.22-10.06.32:376][375]vr.PixelDensity = "1"
+[2024.04.22-10.06.32:387][375]PIE: Server logged in
+[2024.04.22-10.06.32:400][375]PIE: Play in editor total start time 3.162 seconds.
+[2024.04.22-10.06.32:517][375]LogViewport: Scene viewport resized to 2224x1112, mode Windowed.
+[2024.04.22-10.06.32:555][375]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2024.04.22-10.06.48:179][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.22-10.06.48:179][143]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2024.04.22-10.06.48:279][143]LogSlate: Window 'TheMagesOdyssey Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR SteamVR/OpenXR in Meta compatibility mode (2.4.4)' being destroyed
+[2024.04.22-10.06.48:281][143]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.22-10.06.48:282][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-10.06.48:288][143]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.22-10.06.48:294][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-10.06.48:310][143]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2024.04.22-10.06.48:310][143]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.04.22-10.06.48:312][143]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.04.22-10.06.48:318][143]LogSlate: Slate User Unregistered.  User Index 8
+[2024.04.22-10.06.48:318][143]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2024.04.22-10.06.48:320][143]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.04.22-10.06.48:389][144]LogPlayLevel: Display: Destroying online subsystem :Context_38
