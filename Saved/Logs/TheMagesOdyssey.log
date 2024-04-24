@@ -2497,3 +2497,15 @@ Script Stack (0 frames) :
 [2024.04.24-16.38.32:983][108]LogFileHelpers: InternalPromptForCheckoutAndSave took 165 ms (total: 4.80 sec)
 [2024.04.24-16.38.32:986][108]AssetCheck: New page: Asset Save: VRTemplateMap
 [2024.04.24-16.38.32:986][108]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2024.04.24-16.41.15:894][897]LogEditorTransaction: Undo Modify Component(s)
+[2024.04.24-16.42.45:931][113]LogEditorTransaction: Undo Modify Component(s)
+[2024.04.24-16.42.47:067][163]LogEditorTransaction: Undo Move Elements
+[2024.04.24-16.42.48:587][269]LogEditorTransaction: Redo Move Elements
+[2024.04.24-16.42.49:341][321]LogEditorTransaction: Redo Modify Component(s)
+[2024.04.24-16.43.03:115][284]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.24-16.43.03:158][284]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TheMagesOdyssey/Level1Map" FILE="../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Level1Map.uasset" SILENT=true
+[2024.04.24-16.43.03:163][284]LogSavePackage: Moving output files for package: /Game/TheMagesOdyssey/Level1Map
+[2024.04.24-16.43.03:163][284]LogSavePackage: Moving '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Saved/Level1Map12776C8540692AD6198F44BBC8800541.tmp' to '../../../../../../Users/CG ADMIN/Downloads/TheMagesOdyssey/Content/TheMagesOdyssey/Level1Map.uasset'
+[2024.04.24-16.43.03:170][284]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 4.86 sec)
+[2024.04.24-16.43.03:172][284]AssetCheck: New page: Asset Save: Level1Map
+[2024.04.24-16.43.03:172][284]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TheMagesOdyssey/Level1Map.Level1Map
