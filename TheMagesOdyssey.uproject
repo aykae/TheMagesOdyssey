@@ -49,17 +49,13 @@
 			]
 		},
 		{
-			"Name": "MiVRy",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/ab5c386a17f04bd387c3f719a8577613"
-		},
-		{
 			"Name": "NiagaraFluids",
 			"Enabled": true
 		},
 		{
-			"Name": "NiagaraSimCaching",
-			"Enabled": true
+			"Name": "MiVRy",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/ab5c386a17f04bd387c3f719a8577613"
 		}
 	],
 	"TargetPlatforms": [
